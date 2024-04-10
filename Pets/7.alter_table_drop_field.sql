@@ -1,0 +1,4 @@
+USE pets
+ALTER TABLE cats DROP gender;
+SHOW CREATE TABLE cats\G
+DESCRIBE cats;
